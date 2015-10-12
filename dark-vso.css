@@ -37,7 +37,7 @@
 
     .header-post11 .header-search {
         background-color: #2E2E2E;
-        border: 1px solid #999999;
+        border: 1px solid #BBBBBB;
     }
 
     .left-hub-content {
@@ -46,7 +46,7 @@
     }
 
         .left-hub-content .node-content .text {
-            color: #999999;
+            color: #BBBBBB;
         }
 
         .left-hub-content .tree-children {
@@ -59,7 +59,7 @@
 
     .tree-drag-tile.folder > .node-link > .node-content, .tree-view .folder > .node-link > .node-content {
         background-color: #1E1E1E;
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .hub-splitter.splitter.horizontal > .leftPane {
@@ -67,9 +67,9 @@
     }
 
     .toolbar {
-        border-bottom: 1px solid #999999;
+        border-bottom: 1px solid #BBBBBB;
         border-top: 0;
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .source-explorer-tree.with-favorites .repository-node {
@@ -85,12 +85,12 @@
     }
 
     .responsive-grid .grid-cell .grid-cell-title {
-        border-bottom: 1px solid #999999;
+        border-bottom: 1px solid #BBBBBB;
     }
 
-    .hub-content {
+    .hub-content{
         background-color: #1E1E1E;
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .vc-history-list .results-container .group-header {
@@ -103,7 +103,7 @@
 
     .hub-title {
         background-color: #1E1E1E;
-        color: #999999;
+        color: #BBBBBB;
         margin-left: 0;
         margin-right: 0;
         padding-left: 20px;
@@ -133,7 +133,7 @@
     }
 
     .watermark {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .text-filter-box {
@@ -141,13 +141,13 @@
     }
 
         .text-filter-box input {
-            color: #999999;
+            color: #BBBBBB;
         }
 
     button, button.ui-state-default, button.ui-button {
         background-color: #2E2E2E;
         border: 0;
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .tag-container {
@@ -156,7 +156,7 @@
 
     .tags-add-button .tag-box-selectable {
         background-color: #2E2E2E;
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .combo, .mru-identity-picker {
@@ -170,7 +170,7 @@
 
     .splitter.horizontal > .rightPane {
         background-color: #1E1E1E;
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .hub-pivot-content {
@@ -178,23 +178,23 @@
     }
 
     .rendered-markdown {
-        color: #999999;
+        color: #BBBBBB;
     }
 
         .rendered-markdown h2 {
-            color: #999999;
+            color: #BBBBBB;
         }
 
     .hub-title-right, .hub-title-right-secondary {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .views a {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .pivot-filter .title {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .filters a {
@@ -202,11 +202,11 @@
     }
 
     th .witState {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .tbPivotItem .witTitle {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .taskboard-cell {
@@ -235,23 +235,23 @@
     }
 
     .tbTile .clickableTitle {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .field-container.assignedTo {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .tbTile .witTitle {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .tbTile .witAssignedTo {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .parentTbTile .witState {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .board-add-card {
@@ -272,7 +272,7 @@
     }
 
     .agile-board .member.header {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .agile-board .horizontal > .agile-content-container > .content-container-innerDiv-class .horizontal-table {
@@ -288,7 +288,7 @@
         }
 
     .board-tile .assignedTo {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .versioncontrol-explorer-view .source-path {
@@ -297,16 +297,16 @@
     }
 
     label, legend {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     input, textarea, select {
         background-color: #2E2E2E;
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .grid-header {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .grid-gutter-row-current {
@@ -325,7 +325,7 @@
     }
 
     .grid-row {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .grid-row-current {
@@ -334,19 +334,19 @@
 
     .grid-row-selected-blur {
         background-color: #2E2E2E;
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .vc-history-basic-filter .selected-filter {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .vc-changes-list-filter .advanced-filter input {
-        border: 1px solid #999999;
+        border: 1px solid #BBBBBB;
     }
 
     .vc-changes-list-filter .advanced-filter .combo {
-        border: 1px solid #999999;
+        border: 1px solid #BBBBBB;
     }
 
     .combo-drop-popup {
@@ -361,27 +361,27 @@
 
     .tag-box, .tag-delete {
         background-color: #2E2E2E;
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .mapping-pane-title {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .work-item-view legend {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
-        color: #999999;
+        color: #BBBBBB;
     }
 
     .query-type {
-        border-bottom: 1px solid #999999;
+        border-bottom: 1px solid #BBBBBB;
     }
 
         .query-type .pivot-filter li .text {
-            color: #999999;
+            color: #BBBBBB;
         }
 
         .query-type .pivot-filter li.selected {
@@ -390,11 +390,11 @@
         }
 
             .query-type .pivot-filter li.selected .text {
-                color: #999999;
+                color: #BBBBBB;
             }
 
     .query-editor .toolbar.work-item-list-toolbar {
-        border-bottom: 1px solid #999999;
+        border-bottom: 1px solid #BBBBBB;
     }
 
     .textbox, .input-text {
@@ -426,7 +426,6 @@
     }
 
     .ui-widget-content {
-        color: #999999;
+        color: #BBBBBB;
     }
-
 }
