@@ -36,10 +36,10 @@
     }
 
     .control .wrap{
-            border: 1px solid #aaa;
+        border: 1px solid #aaa;
     }
-    .header-post11 #navWrapper {
-        background-color: #2E2E2E;
+    .header-post11 #navWrapper, .header-post11 #navWrapper *{
+        background-color: #2E2E2E!important;
     }
 
     div#header-row {
@@ -56,17 +56,17 @@
         top: 0;
     }
 
-        .left-hub-content .node-content .text {
-            color: #BBBBBB;
-        }
+    .left-hub-content .node-content .text {
+        color: #BBBBBB;
+    }
 
-        .left-hub-content .tree-children {
-            color: #007ACC;
-        }
+    .left-hub-content .tree-children {
+        color: #007ACC;
+    }
 
-        .left-hub-content .ui-droppable {
-            background-color: #1E1E1E;
-        }
+    .left-hub-content .ui-droppable {
+        background-color: #1E1E1E;
+    }
 
     .tree-drag-tile.folder > .node-link > .node-content, .tree-view .folder > .node-link > .node-content {
         background-color: #1E1E1E;
@@ -99,6 +99,12 @@
         border-bottom: 1px solid #BBBBBB;
     }
 
+    .dashboard-landing .hub-content{
+        /*background-color: #2E2E2E!important;*/
+        background-color: #1E1E1E!important;
+        color: #BBBBBB;
+
+    }
     .hub-content{
         background-color: #1E1E1E;
         color: #BBBBBB;
@@ -160,9 +166,9 @@
         background-color: #2E2E2E;
     }
 
-        .text-filter-box input {
-            color: #BBBBBB;
-        }
+    .text-filter-box input {
+        color: #BBBBBB;
+    }
 
     button, button.ui-state-default, button.ui-button {
         background-color: #2E2E2E;
@@ -201,9 +207,9 @@
         color: #BBBBBB;
     }
 
-        .rendered-markdown h2 {
-            color: #BBBBBB;
-        }
+    .rendered-markdown h2 {
+        color: #BBBBBB;
+    }
 
     .hub-title-right, .hub-title-right-secondary {
         color: #BBBBBB;
@@ -303,9 +309,9 @@
         background-color: #2E2E2E;
     }
 
-        .agile-board .board-tile .board-tile-content {
-            border: 0;
-        }
+    .agile-board .board-tile .board-tile-content {
+        border: 0;
+    }
 
     .board-tile .assignedTo {
         color: #BBBBBB;
@@ -403,18 +409,18 @@
         border-bottom: 1px solid #BBBBBB;
     }
 
-        .query-type .pivot-filter li .text {
-            color: #BBBBBB;
-        }
+    .query-type .pivot-filter li .text {
+        color: #BBBBBB;
+    }
 
-        .query-type .pivot-filter li.selected {
-            background-color: #2E2E2E;
-            border: 0;
-        }
+    .query-type .pivot-filter li.selected {
+        background-color: #2E2E2E;
+        border: 0;
+    }
 
-            .query-type .pivot-filter li.selected .text {
-                color: #BBBBBB;
-            }
+    .query-type .pivot-filter li.selected .text {
+        color: #BBBBBB;
+    }
 
     .query-editor .toolbar.work-item-list-toolbar {
         border-bottom: 1px solid #BBBBBB;
