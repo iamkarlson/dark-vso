@@ -349,6 +349,15 @@
         color: #BBBBBB;
     }
 
+    body[contenteditable]{
+            background-color: #2E2E2E;
+            color: #BBBBBB;
+    }
+
+    body[contenteditable] td{
+        color: #000;
+    }
+
     .grid-header {
         color: #BBBBBB;
     }
@@ -459,6 +468,12 @@
     .ui-dialog {
         background-color: #1E1E1E;
         border: 0;
+    }
+    .ui-dialog .ui-dialog-title{
+        color: #BBBBBB;
+    }
+    .ui-dialog .ui-dialog-titlebar{
+        background-color: #1E1E1E;
     }
 
     .ui-dialog-buttonpane {
