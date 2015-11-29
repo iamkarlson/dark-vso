@@ -99,6 +99,11 @@
         border-bottom: 1px solid #BBBBBB;
     }
 
+    .node-link > .node-content, .grid-cell a{
+        /*background-color: #1E1E1E!important;*/
+        color: #BBBBBB!important;
+    }
+
     .dashboard-landing .hub-content{
         /*background-color: #2E2E2E!important;*/
         background-color: #1E1E1E!important;
@@ -158,12 +163,25 @@
         border: 1px solid #2E2E2E;
     }
 
-    .watermark {
+    .bowtie-folder{
+        color: #DCB67A!important;
+    }
+
+    .bowtie-git {
+        color: #F05133!important;;
+    }
+    .watermark, .bowtie-icon{
         color: #BBBBBB;
     }
 
+    .selected-item-text{
+        color: #BBBBBB!important;
+    }
+    .filtered-list-popup{
+        background-color: #e6e6e6;
+    }
     .text-filter-box {
-        background-color: #2E2E2E;
+        background-color: #1E1E1E;
     }
 
     .text-filter-box input {
