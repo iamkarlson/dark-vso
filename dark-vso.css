@@ -132,7 +132,7 @@
         padding-right: 20px;
     }
 
-    .ui-dialog-titlebar * {
+    .ui-dialog > * {
         background-color: #1E1E1E!important;
         color: #BBBBBB;
     }
