@@ -1,0 +1,385 @@
+@import "design/variables";
+
+@-moz-document domain("visualstudio.com") {
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 60px rgba(50, 50, 50, 0.7);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(200, 200, 200, 1);
+  }
+  .work-item-form-main-header {
+    border-left-color: $bgColor;
+  }
+  .work-item-form-id a {
+    color: #FFFFFF;
+  }
+
+  .work-item-form-main-core, .witform-layout {
+    border: none;
+    padding-top: 0px !important;
+  }
+  .witform-layout-content-container {
+    margin-top: 10px;
+  }
+  .work-item-form-tab {
+    background-color: $bgColor !important;
+    border: none !important;
+  }
+  .control .wrap {
+    border: 1px solid #aaa;
+  }
+  .header-post11 #navWrapper {
+    background-color: $bgColor !important;
+    * {
+      background-color: $bgColor !important;
+    }
+  }
+  div#header-row {
+    background-color: $borderBlue;
+  }
+  .header-post11 .header-search {
+    background-color: $bgColor;
+    border: 1px solid $fontColor;
+  }
+  .left-hub-content {
+    background-color: $bgColorLight;
+    top: 0;
+    .node-content .text {
+      color: $fontColor;
+    }
+    .tree-children {
+      color: $borderBlue;
+    }
+    .ui-droppable {
+      background-color: #1E1E1E;
+    }
+  }
+  .tree-drag-tile.folder > .node-link > .node-content, .tree-view .folder > .node-link > .node-content {
+    background-color: $bgColorLight;
+    color: $fontColor;
+  }
+
+  //DEFAULT
+  button, input, textarea, select, body[contenteditable], .tags-add-button .tag-box-selectable, .work-item-form-main-core *, .witform-layout *, .tag-box, .tag-delete, .grid-row-selected-blur {
+    background-color: $bgColor;
+    color: $fontColor;
+  }
+
+  .hub-splitter.splitter.horizontal > .leftPane {
+    border-right: 0;
+  }
+  .toolbar {
+    border-bottom: 1px solid $fontColor;
+    border-top: 0;
+    color: $fontColor;
+  }
+  .source-explorer-tree.with-favorites .repository-node {
+    border-top: 0;
+  }
+  .query-folder-tree .folder.top-separator {
+    border: 0;
+  }
+  .splitter.horizontal > .handleBar {
+    background-color: $bgColor;
+  }
+  .responsive-grid .grid-cell .grid-cell-title {
+    border-bottom: 1px solid $fontColor;
+  }
+  .node-link > .node-content, .grid-cell a {
+    /*background-color: $bgColorLight!important;*/
+    color: $fontColor !important;
+  }
+  .dashboard-landing .hub-content {
+    /*background-color: $bgColor!important;*/
+    background-color: $bgColorLight !important;
+    color: $fontColor;
+  }
+  .vc-history-list .results-container {
+    .group-header, .history-result .result-details .change-link-container .more-comment-link {
+      background-color: $bgColor;
+    }
+  }
+  .hub-content, .hub-title{
+    background-color: $bgColorLight;
+    color: $fontColor;
+  }
+
+  .hub-title {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .ui-dialog > * {
+    background-color: $bgColorLight !important;
+    color: $fontColor;
+  }
+  .workitem-header-bar {
+    background-color: $bgColorLight !important;
+  }
+  .menu-item.toggle-on {
+    background-color: $bgColor;
+  }
+  .add-panel {
+    background-color: #2D2D30;
+  }
+  .combo {
+    > div.wrap > input.invalid, &.invalid > div.wrap > input {
+      background-color: $bgColor;
+    }
+  }
+  .tree-view {
+    > ul.tree-children li.selected > a > div.node-content, &.focus > ul.tree-children li.selected > a > div.node-content {
+      background-color: $bgColor;
+      border: 1px solid $bgColor;
+    }
+  }
+  li.tree-drag-tile > a > div.node-content, .sidebar-search .search-input-wrapper {
+    background-color: $bgColor;
+    border: 1px solid $bgColor;
+  }
+  .bowtie-folder {
+    color: #DCB67A !important;
+  }
+  .bowtie-git {
+    color: #F05133 !important;
+  }
+  .watermark, .bowtie-icon {
+    color: $fontColor;
+  }
+  .selected-item-text {
+    color: $fontColor !important;
+  }
+  .filtered-list-popup {
+    background-color: #e6e6e6;
+  }
+  .text-filter-box {
+    background-color: $bgColorLight;
+    input {
+      color: $fontColor;
+    }
+  }
+  button {
+    border: 0;
+    &.ui-state-default, &.ui-button {
+      background-color: $bgColor;
+      border: 0;
+      color: $fontColor;
+    }
+  }
+  .tag-container {
+    border: 1px solid $bgColor;
+  }
+
+  .combo, .mru-identity-picker {
+    background: $bgColor;
+    border: 1px solid $bgColor;
+  }
+  .ui-tabs .ui-tabs-nav {
+    background-color: $bgColor;
+  }
+  .splitter.horizontal > .rightPane {
+    background-color: $bgColorLight;
+    color: $fontColor;
+  }
+  .hub-pivot-content {
+    background-color: $bgColorLight;
+  }
+  .rendered-markdown {
+    color: $fontColor;
+    h2 {
+      color: $fontColor;
+    }
+  }
+  .hub-title-right, .hub-title-right-secondary, .views a, .pivot-filter .title {
+    color: $fontColor;
+  }
+  .filters a {
+    color: $borderBlue;
+  }
+  th .witState, .tbPivotItem .witTitle {
+    color: $fontColor;
+  }
+  .taskboard-cell {
+    background-color: $bgColor;
+    border-bottom: 1px solid $bgColorLight;
+    border-left: 1px solid $bgColorLight;
+    border-right: 1px solid $border;
+  }
+  .ui-droppable {
+    background-color: $bgColorLight;
+  }
+  .taskboard-expander {
+    background-color: $bgColorLight;
+    border-bottom: 1px solid $bgColorLight;
+  }
+  .taskboard-content-row {
+    .taskboard-expander, .taskboard-parent {
+      background-color: $bgColorLight;
+    }
+  }
+  .tbTile {
+    .tbTileContent {
+      background-color: $bgColor;
+      border: 0;
+    }
+    .clickableTitle {
+      color: $fontColor;
+    }
+  }
+  .field-container.assignedTo {
+    color: $fontColor;
+  }
+  .tbTile {
+    .witTitle, .witAssignedTo {
+      color: $fontColor;
+    }
+  }
+  .parentTbTile .witState {
+    color: $fontColor;
+  }
+  .board-add-card {
+    background-color: #3E3E3E;
+    border: solid 1px $borderBlue;
+  }
+  .agile-board {
+    .horizontal .horizontal-table > .row {
+      > .cell {
+        &:first-of-type {
+          border-bottom: 1px solid $border;
+          border-left: 1px solid $bgColorLight;
+          border-right: 1px solid $border;
+        }
+        border-bottom: 1px solid $border;
+        border-left: 1px solid $bgColorLight;
+        border-right: 1px solid $border;
+      }
+      &.header > .cell {
+        background-color: $bgColor;
+        border-bottom: 1px solid $bgColorLight;
+      }
+    }
+    .member.header {
+      color: $fontColor;
+    }
+    .horizontal > .agile-content-container > .content-container-innerDiv-class .horizontal-table {
+      background-color: $bgColorLight;
+    }
+    .board-tile {
+      background-color: $bgColor;
+    }
+  }
+  .board-tile.ui-draggable-dragging {
+    background-color: $bgColor;
+  }
+  .agile-board .board-tile .board-tile-content {
+    border: 0;
+  }
+  .board-tile .assignedTo {
+    color: $fontColor;
+  }
+  .versioncontrol-explorer-view .source-path {
+    background-color: $bgColor;
+    border: 0;
+  }
+  label, legend {
+    color: $fontColor;
+  }
+
+  body[contenteditable] {
+    td {
+      color: #000;
+    }
+  }
+  .grid-header {
+    color: $fontColor;
+  }
+  .grid-gutter-row-current, .grid-gutter-row-selected, .grid-gutter-row-normal {
+    background-color: $bgColorLight;
+    border: 1px solid $bgColorLight;
+  }
+  .grid-row {
+    color: $fontColor;
+  }
+  .grid-row-current {
+    border: 1px solid $bgColor;
+  }
+
+  .vc-history-basic-filter .selected-filter {
+    color: $fontColor;
+  }
+  .vc-changes-list-filter .advanced-filter {
+    input, .combo {
+      border: 1px solid $fontColor;
+    }
+  }
+  .combo-drop-popup, .chart-hosts-list > .message-block.invalid {
+    background-color: $bgColor;
+    border: 0;
+  }
+
+  .mapping-pane-title {
+    color: $fontColor;
+  }
+  .witform-layout-header-color {
+    padding-left: 0px !important;
+  }
+  .work-item-view legend, .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    color: $fontColor;
+  }
+  .query-type {
+    border-bottom: 1px solid $fontColor;
+    .pivot-filter li {
+      .text {
+        color: $fontColor;
+      }
+      &.selected {
+        background-color: $bgColor;
+        border: 0;
+        .text {
+          color: $fontColor;
+        }
+      }
+    }
+  }
+  .query-editor .toolbar.work-item-list-toolbar {
+    border-bottom: 1px solid $fontColor;
+  }
+  .textbox, .input-text {
+    border: 0;
+  }
+  .query-editor .filters {
+    padding-bottom: 10px;
+  }
+  .splitter > {
+    .handleBar, .handleBar-clone {
+      background-color: $bgColor;
+    }
+  }
+  .ui-dialog {
+    background-color: $bgColorLight;
+    border: 0;
+    .ui-dialog-title {
+      color: $fontColor;
+    }
+    .ui-dialog-titlebar {
+      background-color: $bgColorLight;
+    }
+  }
+  .ui-dialog-buttonpane {
+    background-color: $bgColorLight;
+    border: 0;
+  }
+  .ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {
+    background-color: $bgColor;
+    border: 0;
+    color: #3E3E3E;
+  }
+  .ui-widget-content {
+    color: $fontColor;
+  }
+}
